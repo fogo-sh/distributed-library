@@ -1,8 +1,8 @@
 # the fogo.sh distributed-library
 
-_wip_
+your friends have books, therefore you do too books
 
-## Plan
+## plan
 
 - use go
   - quick to write in
