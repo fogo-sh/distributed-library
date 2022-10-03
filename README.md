@@ -17,4 +17,5 @@ _wip_
     - for now, just hold this state in memory, with no ways to mutate other than re-reading the file again
   - expose state of library with basic `GET /` endpoint
     - use https://github.com/gin-gonic/gin
-
+  - dockerize this, include file from repo in build, so that deployed image basically ships with the data inside (https://simonwillison.net/2021/Jul/28/baked-data/)
+  - jack will run docker container on his infra
