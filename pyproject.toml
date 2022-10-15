@@ -6,6 +6,10 @@ authors = ["Jack Arthur Harrhy <me@jackharrhy.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pydantic = "^1.10.2"
+toml = "^0.10.2"
+typer = "^0.6.1"
+devtools = "^0.9.0"
 
 [tool.poetry.dev-dependencies]
 
