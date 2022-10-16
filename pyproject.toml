@@ -11,6 +11,7 @@ toml = "^0.10.2"
 typer = "^0.6.1"
 devtools = "^0.9.0"
 fastapi = "^0.85.1"
+uvicorn = "^0.18.3"
 
 [tool.poetry.dev-dependencies]
 
