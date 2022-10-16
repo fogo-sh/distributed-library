@@ -1,0 +1,2 @@
+gen-types-from-api:
+    npx openapi-typescript http://127.0.0.1:8000/openapi.json --output src/api-types.ts
