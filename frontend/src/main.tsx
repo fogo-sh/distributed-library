@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { loader as rootLoader, RootPage } from "./routes/root";
 
 import { ErrorHandler } from "./error-handler";
+import { IndexPage } from "./routes";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,12 @@ const router = createBrowserRouter([
     loader: rootLoader,
     element: <RootPage />,
     errorElement: <ErrorHandler />,
+    children: [
+      {
+        index: true,
+        element: <IndexPage />,
+      },
+    ],
   },
 ]);
 
