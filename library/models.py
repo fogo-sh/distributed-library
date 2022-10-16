@@ -43,4 +43,19 @@ class Action(BaseModel):
 
 
 class Log(BaseModel):
-    actions: List[Action]
+    actions: List[Action] = []
+
+
+class StateUser(User):
+    owned_books: List[Book] = []
+    held_books: List[Book] = []
+
+
+class StateBook(Book):
+    owned_by: User
+    held_by: User
+
+
+class State(BaseModel):
+    users: List[StateUser] = []
+    books: List[StateBook] = []
