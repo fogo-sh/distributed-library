@@ -1,4 +1,3 @@
 # the fogo.sh distributed-library
 
-_wip_
-
+https://library.fogo.sh/
