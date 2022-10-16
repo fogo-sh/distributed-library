@@ -1,0 +1,25 @@
+[[actions]]
+action_type = 'AddUser'
+name = 'jack'
+github_username = 'jackharrhy'
+
+[[actions]]
+action_type = 'AddUser'
+name = 'marty'
+github_username = 'lilmert'
+
+[[actions]]
+action_type = 'AddBook'
+user = 'jack'
+book = { id = 'dop', isbn = 9781617298578, url = 'https://www.manning.com/books/data-oriented-programming', cover_image_url = 'https://images.manning.com/360/480/resize/book/0/76cfc61-95fd-4c0d-b221-0e5c3ca90583/Sharvit-DOP-HI.png' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'marty'
+book = { id = 'ddd', isbn = 9781521822807, cover_image_url = 'https://images-na.ssl-images-amazon.com/images/I/41gvS8EAHoL._SX404_BO1,204,203,200_.jpg' }
+
+[[actions]]
+action_type = 'LendBook'
+from_user = 'marty'
+to_user = 'jack'
+book_id = 'ddd'
