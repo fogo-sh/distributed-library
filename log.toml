@@ -2,3 +2,38 @@
 action_type = 'AddUser'
 name = 'jack'
 github_username = 'jackharrhy'
+
+[[actions]]
+action_type = 'AddUser'
+name = 'riley'
+github_username = 'nint8835'
+
+[[actions]]
+action_type = 'AddBook'
+user = 'jack'
+book = { id = 'jack-dop', isbn = 9781617298578, url = 'https://www.manning.com/books/data-oriented-programming', cover_image = 'https://images.manning.com/360/480/resize/book/0/76cfc61-95fd-4c0d-b221-0e5c3ca90583/Sharvit-DOP-HI.png' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'riley'
+book = { id = 'riley-dop', isbn = 9781617298578, url = 'https://www.manning.com/books/data-oriented-programming', cover_image = 'https://images.manning.com/360/480/resize/book/0/76cfc61-95fd-4c0d-b221-0e5c3ca90583/Sharvit-DOP-HI.png' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'riley'
+book = { id = 'riley-docs-for-devs', isbn = 9781484272169, url = 'https://docsfordevelopers.com/', cover_image = 'https://docsfordevelopers.files.wordpress.com/2021/07/978-1-4842-7216-9.jpg'}
+
+[[actions]]
+action_type = 'AddBook'
+user = 'riley'
+book = { id = 'riley-kubernetes-networking', isbn = 9781492081654, url = 'https://www.oreilly.com/library/view/networking-and-kubernetes/9781492081647/', cover_image = 'https://learning.oreilly.com/library/cover/9781492081647/250w/'}
+
+[[actions]]
+action_type = 'AddBook'
+user = 'riley'
+book = { id = 'riley-mia', isbn = 9781617294457, url = 'https://www.manning.com/books/microservices-in-action', cover_image = 'https://images.manning.com/264/352/resize/book/8/809fab1-8912-4fb7-b39e-f49844525807/Bruce-Microservices-HI.png'}
+
+[[actions]]
+action_type = 'AddBook'
+user = 'riley'
+book = { id = 'riley-msia', isbn = 9781617295959, url = 'https://www.manning.com/books/microservices-security-in-action', cover_image = 'https://images.manning.com/264/352/resize/book/6/4cf7d31-fe33-426f-be39-fda5bfbf4191/Siriwardena-MS-HI.png'}
