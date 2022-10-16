@@ -1,13 +1,20 @@
+import { Action } from "../components/Action";
 import { useData } from "./root";
 
 export const IndexPage = () => {
   const {
-    state: { books, users },
+    log: { actions },
   } = useData();
 
   return (
     <>
-      <p>TODO show recent actions</p>
+      <h2>Recent Actions</h2>
+      {[...(actions || [])]
+        .reverse()
+        .slice(0, 5)
+        .map((action) => (
+          <Action action={action} />
+        ))}
     </>
   );
 };
