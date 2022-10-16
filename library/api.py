@@ -7,7 +7,7 @@ from library.models import Log, State
 from library.parse import parse_log, state_from_log
 
 
-app = FastAPI(title="Fogo.sh Distributed Library")
+app = FastAPI(title="Fogo.sh Distributed Library", root_path="/api/")
 
 log = parse_log(Path("./log.toml"))
 state = state_from_log(log)
