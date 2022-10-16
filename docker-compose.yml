@@ -6,3 +6,9 @@ services:
     build: .
     ports:
       - "127.0.0.1:8000:80"
+
+  frontend:
+    image: ghcr.io/fogo-sh/distributed-library-frontend
+    build: ./frontend
+    ports:
+      - "127.0.0.1:7000:80"

@@ -1,0 +1,10 @@
+http://localhost:4000 {
+	handle /api/* {
+        uri strip_prefix /api
+		reverse_proxy 127.0.0.1:8000
+	}
+
+	handle {
+		reverse_proxy 127.0.0.1:7000
+	}
+}
