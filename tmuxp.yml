@@ -1,0 +1,7 @@
+session_name: library
+windows:
+  - layout: tiled
+    panes:
+      - just run-api
+      - just run-frontend
+      - git status

@@ -5,11 +5,14 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { loader as rootLoader, RootPage } from "./routes/root";
 
+import { ErrorHandler } from "./error-handler";
+
 const router = createBrowserRouter([
   {
     path: "/",
     loader: rootLoader,
     element: <RootPage />,
+    errorElement: <ErrorHandler />,
   },
 ]);
 
