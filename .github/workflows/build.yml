@@ -22,3 +22,9 @@ jobs:
         with:
           tags: ghcr.io/${{ github.repository }}:latest
           push: true
+
+      - uses: docker/build-push-action@v3
+        with:
+          context: ./frontend
+          tags: ghcr.io/${{ github.repository }}-frontend:latest
+          push: true
