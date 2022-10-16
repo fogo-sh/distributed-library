@@ -6,4 +6,4 @@ github_username = 'jackharrhy'
 [[actions]]
 action_type = 'AddBook'
 user = 'jack'
-book = { id = 'jack-dop', isbn = 9781617298578, url = 'https://www.manning.com/books/data-oriented-programming', cover_image_url = 'https://images.manning.com/360/480/resize/book/0/76cfc61-95fd-4c0d-b221-0e5c3ca90583/Sharvit-DOP-HI.png' }
+book = { id = 'jack-dop', isbn = 9781617298578, url = 'https://www.manning.com/books/data-oriented-programming', cover_image = 'https://images.manning.com/360/480/resize/book/0/76cfc61-95fd-4c0d-b221-0e5c3ca90583/Sharvit-DOP-HI.png' }
