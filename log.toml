@@ -37,3 +37,28 @@ book = { id = 'riley-mia', isbn = 9781617294457, url = 'https://www.manning.com/
 action_type = 'AddBook'
 user = 'riley'
 book = { id = 'riley-msia', isbn = 9781617295959, url = 'https://www.manning.com/books/microservices-security-in-action', cover_image = 'https://images.manning.com/264/352/resize/book/6/4cf7d31-fe33-426f-be39-fda5bfbf4191/Siriwardena-MS-HI.png'}
+
+[[actions]]
+action_type = 'AddBook'
+user = 'jack'
+book = { id = 'jack-eia', isbn = 9781617295027, url = 'https://www.manning.com/books/elixir-in-action-second-edition', cover_image = 'https://images.manning.com/360/480/resize/book/b/860dd1f-9401-4f00-be22-e00ad954be2f/Juric-Elixir-2ed-HI.jpg'}
+
+[[actions]]
+action_type = 'AddBook'
+user = 'jack'
+book = { id = 'jack-pgia', isbn = 9781617296697, url = 'https://www.manning.com/books/postgis-in-action-third-edition', cover_image = 'https://images.manning.com/360/480/resize/book/6/ab6e387-e2fc-4eb9-b7af-ddd6ef96ae4d/Obe-PostGIS-3ed-HI.png'}
+
+[[actions]]
+action_type = 'AddBook'
+user = 'jack'
+book = { id = 'jack-ah', isbn = 9780735211292, url = 'https://jamesclear.com/atomic-habits', cover_image = 'https://jamesclear.com/wp-content/uploads/2022/09/9M-atomic-habits-dots.png'}
+
+[[actions]]
+action_type = 'AddBook'
+user = 'jack'
+book = { id = 'jack-sc', isbn = 9780553380958, url = 'https://www.amazon.ca/Snow-Crash-Novel-Neal-Stephenson/dp/0553380958', cover_image = 'https://m.media-amazon.com/images/I/91NrsGzBjUL.jpg'}
+
+[[actions]]
+action_type = 'AddBook'
+user = 'jack'
+book = { id = 'jack-tia', isbn = 9781617298349, url = 'https://www.manning.com/books/tensorflow-in-action', cover_image = 'https://images.manning.com/360/480/resize/book/a/01d777a-7288-4d90-899b-4a1cccca0cb3/Ganegedara-TF-HI.png'}
