@@ -1,0 +1,8 @@
+session_name: library
+windows:
+  - layout: tiled
+    panes:
+      - docker compose up --build library
+      - docker compose up --build frontend
+      - caddy run
+      - git status
