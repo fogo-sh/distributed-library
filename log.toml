@@ -1,47 +1,4 @@
-[[actions]]
-action_type = 'AddBook'
-user = 'marty'
-book = { id = 'marty-dsaa', isbn = 9781118290279, url = 'https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275', cover_image = 'https://m.media-amazon.com/images/I/51OLsdBy8WL._SX383_BO1,204,203,200_.jpg' }
-
-[[actions]]
-action_type = 'AddBook'
-user = 'marty'
-book = { id = 'marty-ctci', isbn = 9780984782857, url = 'https://www.crackingthecodinginterview.com/', cover_image = 'https://m.media-amazon.com/images/I/41oYsXjLvZL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg' }
-
-[[actions]]
-action_type = 'AddBook'
-user = 'marty'
-book = { id = 'marty-selbtmt', isbn = 9781736417911, url = 'https://staffeng.com/book', cover_image = 'https://staffeng.com/StaffEngCoverHero.png' }
-
-[[actions]]
-action_type = 'AddBook'
-user = 'marty'
-book = { id = 'marty-unixhist', isbn = 9781695978553, url = 'https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552', cover_image = 'https://m.media-amazon.com/images/I/41yNovYPxKL._SX331_BO1,204,203,200_.jpg' }
-
-[[actions]]
-action_type = 'AddBook'
-user = 'marty'
-book = { id = 'marty-tmux', isbn = 9780735611313, url = 'https://www.goodreads.com/book/show/44882.Code', cover_image = 'https://pragprog.com/titles/bhtmux2/tmux-2/bhtmux2_hu6d5b8b63a4954cb696e89b39f929331b_458570_250x0_resize_q75_box.jpg' }
-
-[[actions]]
-action_type = 'AddBook'
-user = 'marty'
-book = { id = 'marty-cthlochas', isbn = 9780735611313, url = 'https://www.goodreads.com/book/show/44882.Code', cover_image = 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328830222l/44882.jpg' }
-
-[[actions]]
-action_type = 'AddBook'
-user = 'marty'
-book = { id = 'marty-tcc', isbn = 9780137081073, url = 'https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073', cover_image = 'https://m.media-amazon.com/images/I/51uO-K+V5dL._SX381_BO1,204,203,200_.jpg' }
-
-[[actions]]
-action_type = 'AddBook'
-user = 'marty'
-book = { id = 'marty-dsatcl', isbn = 9781491947852, url = 'https://www.oreilly.com/library/view/data-science-at/9781491947845/', cover_image = 'https://learning.oreilly.com/library/cover/9781491947845/250w/' }
-
-[[actions]]
-action_type = 'AddUser'
-name = 'marty'
-github_username = 'lilmert'
+######### ADD USERS BELOW ######### 
 
 [[actions]]
 action_type = 'AddUser'
@@ -52,6 +9,13 @@ github_username = 'jackharrhy'
 action_type = 'AddUser'
 name = 'riley'
 github_username = 'nint8835'
+
+[[actions]]
+action_type = 'AddUser'
+name = 'marty'
+github_username = 'lilmert'
+
+######### ADD BOOKS BELOW ######### 
 
 [[actions]]
 action_type = 'AddBook'
@@ -107,3 +71,43 @@ book = { id = 'jack-sc', isbn = 9780553380958, url = 'https://www.amazon.ca/Snow
 action_type = 'AddBook'
 user = 'jack'
 book = { id = 'jack-tia', isbn = 9781617298349, url = 'https://www.manning.com/books/tensorflow-in-action', cover_image = 'https://images.manning.com/360/480/resize/book/a/01d777a-7288-4d90-899b-4a1cccca0cb3/Ganegedara-TF-HI.png'}
+
+[[actions]]
+action_type = 'AddBook'
+user = 'marty'
+book = { id = 'marty-dsaa', isbn = 9781118290279, url = 'https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275', cover_image = 'https://m.media-amazon.com/images/I/51OLsdBy8WL._SX383_BO1,204,203,200_.jpg' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'marty'
+book = { id = 'marty-ctci', isbn = 9780984782857, url = 'https://www.crackingthecodinginterview.com/', cover_image = 'https://m.media-amazon.com/images/I/41oYsXjLvZL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'marty'
+book = { id = 'marty-selbtmt', isbn = 9781736417911, url = 'https://staffeng.com/book', cover_image = 'https://staffeng.com/StaffEngCoverHero.png' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'marty'
+book = { id = 'marty-unixhist', isbn = 9781695978553, url = 'https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552', cover_image = 'https://m.media-amazon.com/images/I/41yNovYPxKL._SX331_BO1,204,203,200_.jpg' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'marty'
+book = { id = 'marty-tmux', isbn = 9780735611313, url = 'https://www.goodreads.com/book/show/44882.Code', cover_image = 'https://pragprog.com/titles/bhtmux2/tmux-2/bhtmux2_hu6d5b8b63a4954cb696e89b39f929331b_458570_250x0_resize_q75_box.jpg' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'marty'
+book = { id = 'marty-cthlochas', isbn = 9780735611313, url = 'https://www.goodreads.com/book/show/44882.Code', cover_image = 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328830222l/44882.jpg' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'marty'
+book = { id = 'marty-tcc', isbn = 9780137081073, url = 'https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073', cover_image = 'https://m.media-amazon.com/images/I/51uO-K+V5dL._SX381_BO1,204,203,200_.jpg' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'marty'
+book = { id = 'marty-dsatcl', isbn = 9781491947852, url = 'https://www.oreilly.com/library/view/data-science-at/9781491947845/', cover_image = 'https://learning.oreilly.com/library/cover/9781491947845/250w/' }
