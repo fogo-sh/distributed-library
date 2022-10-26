@@ -116,4 +116,29 @@ book = { id = 'marty-c', isbn = 9780131103627, url = 'https://www.amazon.com/Pro
 [[actions]]
 action_type = 'AddBook'
 user = 'marty'
-book = { id = 'marty-c', isbn = 9780131103627, url = 'https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628', cover_image = 'https://m.media-amazon.com/images/I/411ejyE8obL._SX377_BO1,204,203,200_.jpg' }
+book = { id = 'marty-pracvim', isbn = 9781680501278, url = 'https://pragprog.com/titles/dnvim2/practical-vim-second-edition/', cover_image = 'https://pragprog.com/titles/dnvim2/practical-vim-second-edition/dnvim2_hu6d5b8b63a4954cb696e89b39f929331b_395043_250x0_resize_q75_box.jpg' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'marty'
+book = { id = 'marty-modvim', isbn = 9781680502626, url = 'https://pragprog.com/titles/modvim/modern-vim/', cover_image = 'https://pragprog.com/titles/modvim/modern-vim/modvim_hu6d5b8b63a4954cb696e89b39f929331b_441951_250x0_resize_q75_box.jpg' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'marty'
+book = { id = 'marty-dockdd', isbn = 9781800565135, url = 'https://www.oreilly.com/library/view/docker-deep-dive/9781800565135/', cover_image = 'https://learning.oreilly.com/library/cover/9781800565135/250w/' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'marty'
+book = { id = 'marty-wewlc', isbn = 9780131177055, url = 'https://www.oreilly.com/library/view/working-effectively-with/0131177052/', cover_image = 'https://learning.oreilly.com/library/cover/0131177052/250w/' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'marty'
+book = { id = 'marty-progit', isbn = 9781484200766, url = 'https://www.oreilly.com/library/view/pro-git-second/9781484200766/', cover_image = 'https://learning.oreilly.com/library/cover/9781484200766/250w/' }
+
+[[actions]]
+action_type = 'AddBook'
+user = 'marty'
+book = { id = 'marty-cc', isbn = 9780132350884, url = 'https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882', cover_image = 'https://m.media-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg' }
